@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" ng-app="app">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -16,8 +16,10 @@
         </style>
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/main.css">
-
         <script src="<?php bloginfo('template_directory'); ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.2.16/angular-sanitize.min.js"></script>
+        <script src="<?php bloginfo('template_directory'); ?>/controllers/app.js"></script>
     </head>
     <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
